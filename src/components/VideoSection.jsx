@@ -1,10 +1,12 @@
 import React from "react";
 import darsOne from "../videos/darsone.mp4"
 import darstwo from "../videos/darstwo.mp4"
+import darsthree from "../videos/darsthree.mp4";
 export default function VideoSection() {
   const videos = [
     { id: 1, src: darsOne, title: "Beautiful Moment 1" },
     { id: 2, src: darstwo, title: "Beautiful Moment 2" },
+    { id: 2, src: darsthree, title: "Beautiful Moment 3" },
   ];
 
   return (
